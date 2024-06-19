@@ -84,7 +84,7 @@ public class ClickGui extends GuiScreen {
             margin += 2;
          }
       }else {
-         mc.fontRendererObj.drawString("Raven B+ v" + clientVersion + " | Config: " + Raven.configManager.getConfig().getName(), 4, this.height - 3 - mc.fontRendererObj.FONT_HEIGHT, Utils.Client.astolfoColorsDraw(10, 14, speed));
+         mc.fontRendererObj.drawString("Barrel by bigmac v" + clientVersion + " | Config: " + Raven.configManager.getConfig().getName(), 4, this.height - 3 - mc.fontRendererObj.FONT_HEIGHT, Utils.Client.astolfoColorsDraw(10, 14, speed));
       }
 
       this.drawVerticalLine(halfScreenWidth - 10 - w_c, quarterScreenHeight - 30, quarterScreenHeight + 43, Color.white.getRGB());
